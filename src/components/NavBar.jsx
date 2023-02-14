@@ -10,7 +10,6 @@ const NavBar = () => {
     setIsVisible(!isVisible)
   }
 
-console.log(isVisible);
   return (
     <div>
       <i onClick={showOptionsMenu} className="fa-solid fa-bars icon-menu"></i>
@@ -25,8 +24,6 @@ console.log(isVisible);
           <a href={pdf} target='_blank' download='CV Evelyn Garrido.pdf' className='cv'>Download CV</a>
         </div>
       </div>
-
-
 
       <div className="nav-mobile" style={{transform: isVisible? 'translateX(0px)':'translateX(-250px)', transition: '1s'}}>
         <div onClick={showOptionsMenu}>
