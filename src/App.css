@@ -345,7 +345,7 @@ h3{
 
 .container-image{
   border-radius: 10px;
-  transform: translateY(150%);
+  transform: translateY(200rem);
   animation-name: image;
   animation-duration: 1s;
   animation-delay: 2s;
@@ -354,8 +354,8 @@ h3{
 }
 
 @keyframes image {
-  from { transform: translateY(100%)}
-  to { transform: translateY(0%)}
+  from { transform: translateY(200rem)}
+  to { transform: translateY(0)}
 }
 
 @media(max-width: 480px) {
@@ -364,9 +364,9 @@ h3{
     align-items: center;
     justify-content: center;
     width: 95vw;
-    height: 70vh;
+    height: 25vh;
     position: fixed;
-    bottom: 40%
+    top: 10%;
   }
 }
 
@@ -385,8 +385,8 @@ h3{
 @media(max-width: 480px) {
   .image-proyect{
     border-radius: 10px;
-    width: 100vw;
-    height: 230px;
+    width: 95vw;
+    height: 25vh;
     opacity: 1;
   }
 }
