@@ -22,6 +22,8 @@ const NavBar = () => {
           <Link to='about' className='nav-options'>About me</Link>
           <Link to='portfolio' className='nav-options'>Portfolio</Link>
           <a href={pdf} target='_blank' download='CV Evelyn Garrido.pdf' className='cv'>Download CV</a>
+          <a className="icons-nav" href="https://github.com/EveGarrido?tab=repositories"><span><ion-icon name="logo-github"></ion-icon></span></a>
+          <a className="icons-nav" href="https://www.linkedin.com/in/evelyn-harleth-garrido-lobos/"><span><ion-icon name="logo-linkedin"></ion-icon></span></a>
         </div>
       </div>
 
@@ -33,6 +35,8 @@ const NavBar = () => {
           <Link to='about' className='nav-options' onClick={showOptionsMenu}>About me</Link>
           <Link to='portfolio' className='nav-options' onClick={showOptionsMenu}>Portfolio</Link>
           <a href={pdf} target='_blank' download='CV Evelyn Garrido.pdf' onClick={showOptionsMenu} className='cv'>Download CV</a>
+          <a className="icons-nav" href="https://github.com/EveGarrido?tab=repositories"><span><ion-icon name="logo-github" ></ion-icon></span></a>
+          <a className="icons-nav" href="https://www.linkedin.com/in/evelyn-harleth-garrido-lobos/"><span><ion-icon name="logo-linkedin"></ion-icon></span></a>
         </div>
       </div>
 

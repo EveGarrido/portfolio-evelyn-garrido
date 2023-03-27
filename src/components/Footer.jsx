@@ -20,7 +20,10 @@ const Footer = () => {
         <DateAndTime />
         <audio src={jazz} autoPlay controls className="audio"></audio>
       </div>
-      <p className="create">Created by Evelyn GL <span><img src={flag} alt="flag" className="flag" /></span></p>
+      <div className="create">
+        <p >Created by Evelyn GL</p>
+        <img src={flag} alt="flag" className="flag" />
+      </div>
     </div>
   );
 };
