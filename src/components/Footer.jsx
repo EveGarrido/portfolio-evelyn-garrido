@@ -17,12 +17,12 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="date-and-audio">
-        <DateAndTime />
-        <audio src={jazz} autoPlay controls className="audio"></audio>
+        {/* <DateAndTime /> */}
+        {/* <audio src={jazz} autoPlay controls className="audio"></audio> */}
       </div>
       <div className="create">
-        <p >Created by Evelyn GL</p>
-        <img src={flag} alt="flag" className="flag" />
+        <p >Created by Evelyn Garrido</p>
+        {/* <img src={flag} alt="flag" className="flag" /> */}
       </div>
     </div>
   );

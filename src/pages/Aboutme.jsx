@@ -17,9 +17,9 @@ const Aboutme = () => {
       <div className="square-about">
         <img src={photo} alt="Foto" className="foto-about" />
         <div>
-          <h1>Evelyn Garrido</h1>
           <p className="text-about">
             Soy una desarrolladora Web con conocimientos en HTML, CSS, Javascript, React js, Node js, entre otras herramientas que busco seguir adquiriendo. Me destaco por ser una persona disciplinada, comprometida, resiliente y con objetivos claros respecto a concluir con éxito las metas que me impongo en el camino. Tengo gran habilidad comunicativa y disposición a ser un aporte en los proyectos que soliciten de mis competencias.<br></br>
+            <br />
             Si deseas contactarme, escríbeme a 
             <CopyToClipboard text='evelyn.harleth.gl@gmail.com'>
               <span onClick={notify}> evelyn.harleth.gl@gmail.com <i className="fa-regular fa-copy copy"></i> </span> 
